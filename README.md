@@ -1,2 +1,2 @@
 # free-time
-exercise from stepik, msu and just entertainment
+exercise from stepik and just entertainment
