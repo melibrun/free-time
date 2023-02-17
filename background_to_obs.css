@@ -1,0 +1,79 @@
+.markdown-preview-view {
+  z-index: 0;
+}
+.markdown-preview-view::after {
+  content: "";
+  position: absolute;
+  background-image: url(app://local/C:/Users/melib/Downloads/Dis/proba_1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: blur(0px) brightness(100%) saturate(100%);
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.workspace-split.mod-root .view-content{
+  z-index: 0;
+}
+.workspace-split.mod-root .view-content::after {
+  content: "";
+  position: absolute;
+  background-image: url(app://local/C:/Users/melib/Downloads/Dis/proba_1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: blur(0px) brightness(100%) saturate(100%);
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.CodeMirror {
+  z-index: 2;
+}
+.CodeMirror::after {
+z-index: 2;
+  background-image: url(app://local/C:/Users/melib/Downloads/Dis/proba_1.png);
+  background-repeat: no-repeat;
+  background-size: 120%;
+  filter: blur(0px) brightness(100%) saturate(100%);
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 15px;
+
+}
+
+.popover.hover-popover::after {
+  content: "";
+  position: absolute;
+  background-image: url(app://local/C:/Users/melib/Downloads/Dis/proba_1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: blur(0px) brightness(100%) saturate(100%);
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+}
+
+.workspace-split.mod-root .view-content::after {
+  content: "";
+  position: fixed;
+  background-image: url(app://local/C:/Users/melib/Downloads/Dis/proba_1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: blur(0px) brightness(100%) saturate(100%);
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index:-1;
+}
